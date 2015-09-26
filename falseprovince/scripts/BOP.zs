@@ -20,3 +20,10 @@ recipes.removeShaped(<minecraft:coal:0>,  [[<BiomesOPlenty:misc:1>, <BiomesOPlen
 //Make ash blocks craftable via oredict dustAsh
 recipes.removeShaped(<BiomesOPlenty:ash>);
 recipes.addShaped(<BiomesOPlenty:ash>, [[<ore:dustAsh>, <ore:dustAsh>], [<ore:dustAsh>, <ore:dustAsh>]]);
+
+//Pine Cones can be pressed into Seed Oil
+mods.forestry.Squeezer.addRecipe(10, [<BiomesOPlenty:misc:13>], <liquid:seedoil> * 15, null, 0);
+
+#Nerfing Flesh blocks
+val blockMeatRaw = <ore:blockMeatRaw>;
+blockMeatRaw.remove(<BiomesOPlenty:flesh>);
