@@ -3,7 +3,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.0
 saturation:0.0
-renderDistance:8
+renderDistance:10
 guiScale:2
 particles:0
 bobView:true
@@ -103,11 +103,6 @@ key_igwmod.keys.wiki:23
 key_key.ping:34
 key_Pneumatic Helmet Options:0
 key_Pneumatic Helmet Hack:0
-key_simplyjetpacks.keybind.toggle.primary:36
-key_simplyjetpacks.keybind.toggle.secondary:0
-key_simplyjetpacks.keybind.mode.primary:37
-key_simplyjetpacks.keybind.mode.secondary:0
-key_simplyjetpacks.keybind.openPackGUI:0
 key_key.sapmanpack.updateKey:0
 key_Baubles Inventory:48
 key_Change Wand Focus:33
@@ -122,10 +117,6 @@ key_waila.keybind.recipe:19
 key_waila.keybind.usage:22
 key_Automagy.key.focusCrafting:0
 key_key.betterHud.open:22
-key_key.tarmor:43
-key_key.tgoggles:0
-key_key.tbelt:0
-key_key.tzoom:0
 key_ttmisc.toggleArmor:0
 key_Glider Toggle:0
 key_Sound Locator:0
@@ -136,9 +127,6 @@ key_Speed:0
 key_Jump:0
 key_Yeta Wrench Mode:0
 key_Toggle Electromagnet:0
-key_[GC] Galaxy Map:0
-key_[GC] Open Spaceship Inventory:0
-key_[GC] Toggle Sensor Goggles Mode:0
 key_Mekanism Item Mode Switch:51
 key_Mekanism Armor Mode Switch:49
 key_Mekanism Voice:52
