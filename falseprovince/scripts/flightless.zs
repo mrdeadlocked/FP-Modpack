@@ -1,0 +1,43 @@
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:HoverHarness>);
+mods.thaumcraft.Research.orphanResearch("HOVERHARNESS");
+mods.thaumcraft.Research.removeResearch("HOVERHARNESS");
+mods.thaumcraft.Research.refreshResearchRecipe("HOVERHARNESS");
+
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGirdleHover>);
+mods.thaumcraft.Research.orphanResearch("HOVERGIRDLE");
+mods.thaumcraft.Research.removeResearch("HOVERGIRDLE");
+mods.thaumcraft.Research.refreshResearchRecipe("HOVERGIRDLE");
+
+recipes.remove(<Steamcraft:jetpack>);
+recipes.remove(<Mekanism:ArmoredJetpack>);
+recipes.remove(<Mekanism:Jetpack>);
+recipes.remove(<AWWayofTime:airSigil>);
+recipes.remove(<AWWayofTime:sigilOfTheBridge>);
+recipes.remove(<EnderIO:itemGliderWing>);
+recipes.remove(<OpenBlocks:generic>);
+recipes.remove(<OpenBlocks:hangglider>);
+recipes.remove(<ExtraUtilities:angelRing>);
+recipes.remove(<Botania:flightTiara>);
+recipes.remove(<EnderIO:itemGliderWing:1>);
+recipes.remove(<Mekanism:ArmoredJetpack:100>);
+recipes.remove(<Mekanism:Jetpack:100>);
+recipes.remove(<AWWayofTime:sigilOfElementalAffinity>);
+recipes.remove(<AWWayofTime:sigilOfWind>);
+recipes.remove(<ExtraUtilities:angelRing:1>);
+recipes.remove(<ExtraUtilities:angelRing:2>);
+recipes.remove(<ExtraUtilities:angelRing:4>);
+recipes.remove(<ExtraUtilities:angelRing:3>);
+recipes.remove(<ExtraUtilities:angelRing:2>);
+recipes.remove(<witchery:ingredient:8>);
+
+recipes.addShaped(<AWWayofTime:sigilOfElementalAffinity>, [[<ore:blockObsidian>, <ore:itemGhastTear>, <ore:blockObsidian>], [<AWWayofTime:waterSigil>, <AWWayofTime:imbuedSlate>, <AWWayofTime:lavaSigil>], [<ore:blockObsidian>, <BloodArsenal:transparent_orb>, <ore:blockObsidian>]]);
+recipes.addShaped(<AWWayofTime:sigilOfElementalAffinity>, [[<ore:blockObsidian>, <ore:itemGhastTear>, <ore:blockObsidian>], [<AWWayofTime:waterSigil>, <AWWayofTime:imbuedSlate>, <AWWayofTime:lavaSigil>], [<ore:blockObsidian>, <ForbiddenMagic:EldritchOrb>, <ore:blockObsidian>]]);
+recipes.addShaped(<AWWayofTime:sigilOfElementalAffinity>, [[<ore:blockObsidian>, <ore:itemGhastTear>, <ore:blockObsidian>], [<AWWayofTime:waterSigil>, <AWWayofTime:imbuedSlate>, <AWWayofTime:lavaSigil>], [<ore:blockObsidian>, <AWWayofTime:transcendentBloodOrb>, <ore:blockObsidian>]]);
+recipes.addShaped(<AWWayofTime:sigilOfElementalAffinity>, [[<ore:blockObsidian>, <ore:itemGhastTear>, <ore:blockObsidian>], [<AWWayofTime:waterSigil>, <AWWayofTime:imbuedSlate>, <AWWayofTime:lavaSigil>], [<ore:blockObsidian>, <AWWayofTime:archmageBloodOrb>, <ore:blockObsidian>]]);
+recipes.addShaped(<AWWayofTime:sigilOfElementalAffinity>, [[<ore:blockObsidian>, <ore:itemGhastTear>, <ore:blockObsidian>], [<AWWayofTime:waterSigil>, <AWWayofTime:imbuedSlate>, <AWWayofTime:lavaSigil>], [<ore:blockObsidian>, <AWWayofTime:magicianBloodOrb>, <ore:blockObsidian>]]);
+recipes.addShaped(<AWWayofTime:sigilOfElementalAffinity>, [[<ore:blockObsidian>, <ore:itemGhastTear>, <ore:blockObsidian>], [<AWWayofTime:waterSigil>, <AWWayofTime:imbuedSlate>, <AWWayofTime:lavaSigil>], [<ore:blockObsidian>, <AWWayofTime:masterBloodOrb>, <ore:blockObsidian>]]);
+recipes.addShaped(<AWWayofTime:sigilOfWind>, [[<minecraft:feather>, <ore:itemGhastTear>, <minecraft:feather>], [<ore:itemGhastTear>, <AWWayofTime:demonicSlate>, <ore:itemGhastTear>], [<minecraft:feather>, <AWWayofTime:masterBloodOrb>, <minecraft:feather>]]);
+recipes.addShaped(<AWWayofTime:sigilOfWind>, [[<minecraft:feather>, <ore:itemGhastTear>, <minecraft:feather>], [<ore:itemGhastTear>, <AWWayofTime:demonicSlate>, <ore:itemGhastTear>], [<minecraft:feather>, <AWWayofTime:archmageBloodOrb>, <minecraft:feather>]]);
+recipes.addShaped(<AWWayofTime:sigilOfWind>, [[<minecraft:feather>, <ore:itemGhastTear>, <minecraft:feather>], [<ore:itemGhastTear>, <AWWayofTime:demonicSlate>, <ore:itemGhastTear>], [<minecraft:feather>, <AWWayofTime:transcendentBloodOrb>, <minecraft:feather>]]);
+recipes.addShaped(<AWWayofTime:sigilOfWind>, [[<minecraft:feather>, <ore:itemGhastTear>, <minecraft:feather>], [<ore:itemGhastTear>, <AWWayofTime:demonicSlate>, <ore:itemGhastTear>], [<minecraft:feather>, <ForbiddenMagic:EldritchOrb>, <minecraft:feather>]]);
+recipes.addShaped(<AWWayofTime:sigilOfWind>, [[<minecraft:feather>, <ore:itemGhastTear>, <minecraft:feather>], [<ore:itemGhastTear>, <AWWayofTime:demonicSlate>, <ore:itemGhastTear>], [<minecraft:feather>, <AWWayofTime:magicianBloodOrb>, <minecraft:feather>]]);
