@@ -45,8 +45,7 @@ _ReSharper*/
 falseprovince/1213309934
 falseprovince/.analytics/com.lordmau5.ffs.compat.FFSAnalytics.properties
 falseprovince/BotaniaVars.dat
-falseprovince/OpenComputersMod-1.5.17.33-lua52-native.64.dll
-falseprovince/OpenComputersMod-1.5.17.33-lua53-native.64.dll
+falseprovince/OpenComputersMod-*
 falseprovince/Reika.DragonAPI.ModInteract.DeepInteract.FrameBlacklist.classdata
 falseprovince/usernamecache.json
 falseprovince/knownkeys.txt
@@ -57,3 +56,5 @@ falseprovince/config/xray/
 falseprovince/options.txt
 falseprovince/options.txt
 falseprovince/options.txt
+falseprovince/localconfig.cfg
+falseprovince/mods/1.7.10/LibSandstone-1.0.0.jar
