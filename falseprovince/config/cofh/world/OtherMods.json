@@ -6,7 +6,7 @@
         "numClusters": 1,
         "minHeight": 0,
         "maxHeight": 50,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -25,7 +25,7 @@
         "numClusters": 5,
         "minHeight": 40,
         "maxHeight": 75,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
             "all"
@@ -46,7 +46,7 @@
         "numClusters": 3,
         "minHeight": 0,
         "maxHeight": 32,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -69,7 +69,7 @@
         "numClusters": 2,
         "meanHeight": 64,
         "maxVariance": 16,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "blacklist",
         "biomes": [
             "ocean"
@@ -91,7 +91,7 @@
         "numClusters": 5,
         "minHeight": 0,
         "maxHeight": 64,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
             "all"
@@ -108,7 +108,7 @@
         "numClusters": 5,
         "minHeight": 65,
         "maxHeight": 256,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
             "all"
@@ -129,7 +129,7 @@
         "numClusters": 1,
         "minHeight": 32,
         "maxHeight": 64,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
             "all"
@@ -150,7 +150,7 @@
         "numClusters": 1,
         "minHeight": 64,
         "maxHeight": 128,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
             "all"
@@ -172,7 +172,7 @@
         "numClusters": 10,
         "minHeight": 0,
         "maxHeight": 128,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -192,7 +192,7 @@
         "numClusters": 10,
         "minHeight": 0,
         "maxHeight": 128,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -212,7 +212,7 @@
         "numClusters": 10,
         "minHeight": 0,
         "maxHeight": 128,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -235,7 +235,7 @@
         "numClusters": 20,
         "minHeight": 0,
         "maxHeight": 12,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -255,7 +255,7 @@
         "numClusters": 6,
         "minHeight": 0,
         "maxHeight": 16,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -275,7 +275,7 @@
         "numClusters": 1,
         "minHeight": 0,
         "maxHeight": 16,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -295,7 +295,7 @@
         "numClusters": 1,
         "minHeight": 0,
         "maxHeight": 8,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
@@ -304,6 +304,33 @@
 			-29,
 			-28,
 			-1,
+            1
+        ]
+    },
+    "certusquartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 36,
+        "maxHeight": 54,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
             1
         ]
     }

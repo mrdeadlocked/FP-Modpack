@@ -41,3 +41,9 @@ recipes.addShaped(<MekanismGenerators:Generator:5>,
  [[<MekanismGenerators:Generator:1>, <Mekanism:EnrichedAlloy>, <MekanismGenerators:Generator:1>],
   [<MekanismGenerators:Generator:1>, <Mekanism:EnrichedAlloy>, <MekanismGenerators:Generator:1>],
   [<ore:ingotLumium>, <Mekanism:ControlCircuit:2>, <ore:ingotLumium>]]);
+  
+//Induction temp fix
+recipes.remove(<Mekanism:BasicBlock2:1>);
+recipes.remove(<Mekanism:BasicBlock2:2>);
+mods.mekanism.Infuser.addRecipe("TIN", 2, <Mekanism:BasicBlock:8>, <Mekanism:BasicBlock2:1>);
+furnace.addRecipe(<Mekanism:BasicBlock2:2>, <Mekanism:BasicBlock2:1>);

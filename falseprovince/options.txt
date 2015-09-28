@@ -3,7 +3,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.0
 saturation:0.0
-renderDistance:10
+renderDistance:8
 guiScale:2
 particles:0
 bobView:true
@@ -92,73 +92,73 @@ key_Fly Speed -:0
 key_Fullbright:38
 key_Coords:36
 key_XRay:45
-key_Cave Finder:35
-key_key.openCompendium:207
+key_Cave Finder:46
+key_key.openCompendium:25
 key_Cosmetic Inventory:46
-key_Tool Increase:0
-key_Tool Decrease:0
-key_keys.gekoslasers.laserSize:0
-key_keys.gekoslasers.laserDepth:0
+key_Tool Increase:201
+key_Tool Decrease:209
+key_keys.gekoslasers.laserSize:33
+key_keys.gekoslasers.laserDepth:47
 key_igwmod.keys.wiki:23
-key_key.ping:34
-key_Pneumatic Helmet Options:0
-key_Pneumatic Helmet Hack:0
-key_key.sapmanpack.updateKey:0
+key_key.ping:33
+key_Pneumatic Helmet Options:33
+key_Pneumatic Helmet Hack:35
+key_key.sapmanpack.updateKey:22
 key_Baubles Inventory:48
 key_Change Wand Focus:33
-key_Activate Hover Harness:0
-key_Misc Wand Toggle:0
-key_keys.armourersworkshop.equipmentWardrobe:0
-key_keys.armourersworkshop.undo:0
-key_waila.keybind.wailaconfig:76
+key_Activate Hover Harness:35
+key_Misc Wand Toggle:34
+key_keys.armourersworkshop.equipmentWardrobe:25
+key_keys.armourersworkshop.undo:44
+key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
-key_waila.keybind.recipe:19
-key_waila.keybind.usage:22
-key_Automagy.key.focusCrafting:0
+key_waila.keybind.recipe:81
+key_waila.keybind.usage:75
+key_Automagy.key.focusCrafting:46
 key_key.betterHud.open:22
-key_ttmisc.toggleArmor:0
-key_Glider Toggle:0
-key_Sound Locator:0
-key_Night Vision:0
-key_Goggles of Revealing:0
+key_ttmisc.toggleArmor:22
+key_Glider Toggle:34
+key_Sound Locator:38
+key_Night Vision:25
+key_Goggles of Revealing:19
 key_Step Assist:0
 key_Speed:0
 key_Jump:0
-key_Yeta Wrench Mode:0
+key_Yeta Wrench Mode:21
 key_Toggle Electromagnet:0
-key_Mekanism Item Mode Switch:51
-key_Mekanism Armor Mode Switch:49
-key_Mekanism Voice:52
+key_Mekanism Item Mode Switch:50
+key_Mekanism Armor Mode Switch:33
+key_Mekanism Voice:22
 key_key.materialCosts:56
 key_key.clipboardPaste:210
-key_Zoom using monocle:0
-key_invtweaks.key.sort:0
-key_key.fart.desc:0
-key_key.armor:0
-key_key.aspectMenu:21
-key_Change Arcane Lens:0
-key_Activate Morphic Fingers:0
-key_Toggle Spider Climb:0
+key_Zoom using monocle:44
+key_invtweaks.key.sort:19
+key_key.fart.desc:33
+key_key.armor:25
+key_key.aspectMenu:23
+key_Change Arcane Lens:47
+key_Activate Morphic Fingers:49
+key_Toggle Spider Climb:46
 key_Toggle Chameleon Skin:0
-key_key.craftingGrid:0
-key_TG.keybind.openInv:28
-key_TG.keybind.activeaAbilities:0
+key_key.craftingGrid:46
+key_TG.keybind.openInv:71
+key_TG.keybind.activeaAbilities:19
 key_WorldEdit Reference:38
-key_key.cofh.empower:0
-key_key.cofh.multimode:0
-key_railcraft.keybind.loco.faster:78
-key_railcraft.keybind.loco.slower:74
-key_railcraft.keybind.loco.mode:55
-key_railcraft.keybind.loco.whistle:181
+key_key.cofh.empower:47
+key_key.cofh.multimode:46
+key_railcraft.keybind.loco.faster:52
+key_railcraft.keybind.loco.slower:51
+key_railcraft.keybind.loco.mode:50
+key_railcraft.keybind.loco.whistle:49
 key_key.control:29
-key_key.journeymap.map_toggle:50
+key_key.journeymap.map_toggle:36
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
-key_key.journeymap.minimap_type:0
-key_key.journeymap.minimap_type:0
-key_key.journeymap.minimap_preset:0
-key_key.journeymap.create_waypoint:0
+key_key.journeymap.minimap_type:27
+key_key.journeymap.minimap_type:27
+key_key.journeymap.minimap_preset:43
+key_key.journeymap.create_waypoint:48
 soundCategory_master:0.15231788
 soundCategory_music:0.20422535
 soundCategory_record:0.09154929

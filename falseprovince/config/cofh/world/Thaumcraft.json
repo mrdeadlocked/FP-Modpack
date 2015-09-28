@@ -1,0 +1,186 @@
+{
+    "overworld-cinnabar": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 0
+        },
+        "material": "stone",
+        "clusterSize": 3,
+        "numClusters": 4,
+        "maxHeight": 64,
+        "minHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -30,
+			-29,
+			-28,
+			-1,
+            1
+        ]
+    },
+    "overworld-amber": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 7
+        },
+        "material": "stone",
+        "clusterSize": 4,
+        "numClusters": 8,
+        "maxHeight": 32,
+        "minHeight": 0,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -30,
+			-29,
+			-28,
+			-1,
+            1
+        ]
+    },
+    "overworld-infused-air": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 1
+        },
+        "material": "stone",
+        "clusterSize": 4,
+        "numClusters": 8,
+        "maxHeight": 64,
+        "minHeight": 0,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -30,
+			-29,
+			-28,
+			-1,
+            1
+        ]
+    },
+    "overworld-infused-fire": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 2
+        },
+        "material": "stone",
+        "clusterSize": 4,
+        "numClusters": 8,
+        "maxHeight": 64,
+        "minHeight": 0,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -30,
+			-29,
+			-28,
+			-1,
+            1
+        ]
+    },
+    "overworld-infused-water": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 3
+        },
+        "material": "stone",
+        "clusterSize": 4,
+        "numClusters": 8,
+        "maxHeight": 64,
+        "minHeight": 0,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -30,
+			-29,
+			-28,
+			-1,
+            1
+        ]
+    },
+    "overworld-infused-earth": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 4
+        },
+        "material": "stone",
+        "clusterSize": 4,
+        "numClusters": 8,
+        "maxHeight": 64,
+        "minHeight": 0,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -30,
+			-29,
+			-28,
+			-1,
+            1
+        ]
+    },
+    "overworld-infused-order": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 5
+        },
+        "material": "stone",
+        "clusterSize": 4,
+        "numClusters": 8,
+        "maxHeight": 64,
+        "minHeight": 0,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -30,
+			-29,
+			-28,
+			-1,
+            1
+        ]
+    },
+    "overworld-infused-entropy": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 6
+        },
+        "material": "stone",
+        "clusterSize": 4,
+        "numClusters": 8,
+        "maxHeight": 64,
+        "minHeight": 0,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -30,
+			-29,
+			-28,
+			-1,
+            1
+        ]
+    }
+}
