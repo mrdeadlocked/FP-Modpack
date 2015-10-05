@@ -8,7 +8,7 @@
     "chunkChance": 3,
     "meanHeight": 18,
     "maxVariance": 10,
-    "retrogen": "true",
+    "retrogen": "false",
     "biomeRestriction": "whitelist",
     "biomes": [
       { "type": "dictionary", "entry": "HOT" },
@@ -26,7 +26,7 @@
     "chunkChance": 3,
     "meanHeight": 18,
     "maxVariance": 10,
-    "retrogen": "true",
+    "retrogen": "false",
     "biomeRestriction": "whitelist",
     "biomes": [
       { "type": "dictionary", "entry": "PLAINS" }
@@ -43,7 +43,7 @@
     "chunkChance": 3,
     "meanHeight": 18,
     "maxVariance": 10,
-    "retrogen": "true",
+    "retrogen": "false",
     "biomeRestriction": "whitelist",
     "biomes": [
       { "type": "dictionary", "entry": "JUNGLE" }
@@ -60,7 +60,7 @@
     "chunkChance": 3,
     "meanHeight": 18,
     "maxVariance": 10,
-    "retrogen": "true",
+    "retrogen": "false",
     "biomeRestriction": "whitelist",
     "biomes": [
       { "type": "dictionary", "entry": "COLD" },
@@ -78,7 +78,7 @@
     "chunkChance": 3,
     "meanHeight": 18,
     "maxVariance": 10,
-    "retrogen": "true",
+    "retrogen": "false",
     "biomeRestriction": "whitelist",
     "biomes": [
       { "type": "dictionary", "entry": "FOREST" }
@@ -95,7 +95,7 @@
     "chunkChance": 3,
     "meanHeight": 18,
     "maxVariance": 10,
-    "retrogen": "true",
+    "retrogen": "false",
     "biomeRestriction": "whitelist",
     "biomes": [
       { "type": "dictionary", "entry": "SWAMP" },
@@ -113,7 +113,7 @@
     "chunkChance": 3,
     "meanHeight": 18,
     "maxVariance": 10,
-    "retrogen": "true",
+    "retrogen": "false",
     "biomeRestriction": "whitelist",
     "biomes": [
       { "type": "dictionary", "entry": "WATER" }

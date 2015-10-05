@@ -290,23 +290,6 @@
             0,
 			1
         ]
-    },
-	"netherAluminum": {
-        "template": "normal",
-        "block": {
-            "name": "customthings:block0",
-            "metadata": 14
-        },
-		"material": "minecraft:netherrack",
-        "clusterSize": 24,
-        "numClusters": 2,
-        "meanHeight": 64,
-        "maxVariance": 16,
-        "retrogen": "false",
-        "biomeRestriction": "blacklist",
-        "dimensions": [
-            0,
-			1
-        ]
     }
+
 }

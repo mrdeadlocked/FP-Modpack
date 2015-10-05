@@ -15,10 +15,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 		
         "fractal_certus": {
@@ -37,10 +34,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+                "dimensions": [ -1, 1, -28, -29, -30 ]
         },
 
         "fractal_charged_certus": {
@@ -59,10 +53,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 		
         "fractal_copper": {
@@ -84,10 +75,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 		
         "fractal_diamond": {
@@ -106,10 +94,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 		
         "fractal_dimshard": {
@@ -128,10 +113,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 
 		"fractal_emerald": {
@@ -150,10 +132,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 		
 		"fractal_ferrous": {
@@ -175,10 +154,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 
 		"fractal_gold": {
@@ -197,10 +173,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 
 		"fractal_iron": {
@@ -219,10 +192,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 
 		"fractal_lapis": {
@@ -241,10 +211,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 
         "fractal_lead": {
@@ -266,10 +233,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 		
         "fractal_redstone": {
@@ -288,10 +252,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 		
         "fractal_silver": {
@@ -313,10 +274,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 
 		 "fractal_tin": {
@@ -338,10 +296,7 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 		
         "fractal_yellorite": {
@@ -360,10 +315,300 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+		
+        "fractal_aluminum": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+                "block": {
+					"name": "TConstruct:SearedBrick",
+					"metadata": 5
+				},
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 30,
+				"maxHeight": 50,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+				
+        "fractal_ruby": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+                "block": {
+					"name": "BiomesOPlenty:gemOre",
+					"metadata": 2
+				},
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 30,
+				"maxHeight": 50,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+		
+        "fractal_peridot": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+                "block": {
+					"name": "BiomesOPlenty:gemOre",
+					"metadata": 4
+				},
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 30,
+				"maxHeight": 50,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+
+        "fractal_topaz": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+                "block": {
+					"name": "BiomesOPlenty:gemOre",
+					"metadata": 6
+				},
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 30,
+				"maxHeight": 50,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+
+        "fractal_tanzanite": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+                "block": {
+					"name": "BiomesOPlenty:gemOre",
+					"metadata": 8
+				},
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 30,
+				"maxHeight": 50,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+
+        "fractal_malachite": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+                "block": {
+					"name": "BiomesOPlenty:gemOre",
+					"metadata": 10
+				},
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 30,
+				"maxHeight": 50,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+
+        "fractal_sapphire": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+                "block": {
+					"name": "BiomesOPlenty:gemOre",
+					"metadata": 12
+				},
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 20,
+				"maxHeight": 35,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+
+        "fractal_amber": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+                "block": {
+					"name": "BiomesOPlenty:gemOre",
+					"metadata": 14
+				},
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 40,
+				"maxHeight": 60,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+
+        "fractal_sulfur": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+				"block": "Railcraft:ore",
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 25,
+				"maxHeight": 45,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+
+        "fractal_saltpeter": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+                "block": {
+					"name": "Railcraft:ore",
+					"metadata": 1
+				},
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 30,
+				"maxHeight": 45,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+
+        "fractal_teslatite": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+				"block": "bluepower:teslatite_ore",
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 0,
+				"maxHeight": 16,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+
+        "fractal_zinc": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+				"block": "bluepower:zinc_ore",
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 1,
+				"maxHeight": 9,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+
+        "fractal_tungsten": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+				"block": "bluepower:tungsten_ore",
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 0,
+				"maxHeight": 9,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
+        },
+
+        "fractal_amethyst": {
+                "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+				"block": "bluepower:amethyst_ore",
+                "clusterSize": 130,
+                "numClusters": 2,
+                "chunkChance": 1200,
+                "minHeight": 0,
+				"maxHeight": 16,
+                "veinHeight": 20,
+                "veinDiameter": 60,
+                "verticalDensity": 100,
+                "horizontalDensity": 100,
+                "retrogen": "false",
+                "biomeRestriction": "none",
+                "biomes": [],
+                "dimensionRestriction": "blacklist",
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         },
 		
         "fractal_osmium": {
@@ -385,9 +630,6 @@
                 "biomeRestriction": "none",
                 "biomes": [],
                 "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -1,
-                        1
-                ]
+				"dimensions": [ -1, 1, -28, -29, -30 ]
         }
 }
