@@ -8,7 +8,6 @@ mods.thaumcraft.Research.orphanResearch("HOVERGIRDLE");
 mods.thaumcraft.Research.removeResearch("HOVERGIRDLE");
 mods.thaumcraft.Research.refreshResearchRecipe("HOVERGIRDLE");
 
-recipes.remove(<Steamcraft:jetpack>);
 recipes.remove(<Mekanism:ArmoredJetpack>);
 recipes.remove(<Mekanism:Jetpack>);
 recipes.remove(<AWWayofTime:airSigil>);

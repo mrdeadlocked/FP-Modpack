@@ -1,11 +1,11 @@
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:0.0
+gamma:1.0
 saturation:0.0
 renderDistance:8
 guiScale:2
-particles:0
+particles:1
 bobView:true
 anaglyph3d:false
 advancedOpengl:false
@@ -53,6 +53,110 @@ streamChatEnabled:0
 streamChatUserFilter:0
 streamMicToggleBehavior:0
 forceUnicodeFont:false
+akey_railcraft.keybind.loco.faster:
+akey_key.armor:
+akey_rtm.ats:
+akey_key.playerlist:15+
+akey_key.journeymap.minimap_type:
+akey_Baubles Inventory:
+akey_igwmod.keys.wiki:
+akey_Compressed tool fix key:
+akey_Goggles of Revealing:
+akey_key.back:31+
+akey_Glider Toggle:
+akey_Mekanism Item Mode Switch:
+akey_Tool Increase:
+akey_ssu.key.delete:
+akey_key.openCompendium:
+akey_Activate Morphic Fingers:
+akey_Toggle Electromagnet:
+akey_key.hotbar.2:3+
+akey_Sound Locator:
+akey_Toggle Chameleon Skin:
+akey_WorldEdit Reference:
+akey_key.betterHud.open:
+akey_key.ping:
+akey_waila.keybind.wailaconfig:
+akey_key.use:-99+
+akey_key.streamCommercial:
+akey_Misc Wand Toggle:
+akey_railcraft.keybind.loco.mode:
+akey_key.attack:-100+
+akey_key.inventory:18+
+akey_key.jump:57+
+akey_railcraft.keybind.loco.slower:
+akey_waila.keybind.wailadisplay:
+akey_key.chat:20+
+akey_Activate Hover Harness:
+akey_key.togglePerspective:
+akey_key.streamStartStop:
+akey_railcraft.keybind.loco.whistle:
+akey_invtweaks.key.sort:
+akey_key.smoothCamera:
+akey_key.pickItem:
+akey_key.left:30+
+akey_key.hotbar.7:8+
+akey_key.fullscreen:
+akey_key.hotbar.9:10+
+akey_waila.keybind.recipe:
+akey_Toggle Spider Climb:
+akey_Pneumatic Helmet Options:
+akey_Mekanism Voice:
+akey_key.sneak:
+akey_key.command:53+
+akey_rtm.chime:
+akey_key.cofh.multimode:
+akey_key.sapmanpack.updateKey:
+akey_Change Wand Focus:
+akey_key.streamPauseUnpause:
+akey_Cosmetic Inventory:
+akey_Pneumatic Helmet Hack:
+akey_Tool Decrease:
+akey_key.journeymap.minimap_preset:
+akey_key.hotbar.5:6+
+akey_keys.gekoslasers.laserDepth:
+akey_TG.keybind.activeaAbilities:
+akey_key.hotbar.8:9+
+akey_key.sprint:
+akey_key.journeymap.zoom_out:
+akey_key.hotbar.4:5+
+akey_keys.armourersworkshop.undo:
+akey_ttmisc.toggleArmor:
+akey_key.craftingGrid:
+akey_waila.keybind.usage:
+akey_key.forward:17+
+akey_key.fart.desc:
+akey_Night Vision:
+akey_Yeta Wrench Mode:
+akey_Change Arcane Lens:
+akey_key.materialCosts:
+akey_key.aspectMenu:
+akey_key.journeymap.zoom_in:
+akey_key.screenshot:
+akey_keys.gekoslasers.laserSize:
+akey_waila.keybind.liquid:
+akey_Mekanism Armor Mode Switch:
+akey_key.journeymap.map_toggle:50+
+akey_key.hotbar.6:7+
+akey_Jump:
+akey_key.right:32+
+akey_ssu.key.upload:
+akey_key.cofh.empower:
+akey_key.hotbar.1:2+
+akey_Step Assist:
+akey_key.journeymap.create_waypoint:
+akey_key.journeymap.minimap_type:
+akey_Automagy.key.focusCrafting:
+akey_key.control:
+akey_key.streamToggleMic:
+akey_key.clipboardPaste:
+akey_Speed:
+akey_Compressed tool mode change key:
+akey_key.hotbar.3:4+
+akey_rtm.horn:
+akey_key.drop:16+
+akey_TG.keybind.openInv:
+akey_keys.armourersworkshop.equipmentWardrobe:
 soundCategory_master:0.15231788
 soundCategory_music:0.20422535
 soundCategory_record:0.09154929

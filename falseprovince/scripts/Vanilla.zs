@@ -26,6 +26,9 @@ recipes.addShaped(<minecraft:packed_ice> * 4,
 #Recipe for Squid Spawning Egg
 recipes.addShapeless(<minecraft:spawn_egg:94>, [<minecraft:egg>, <ore:dyeBlack>]);
 
+#Efficient Sugar Creation
+recipes.addShapeless(<minecraft:sugar> * 3, [<harvestcraft:mortarandpestleItem>, <minecraft:reeds>, <minecraft:reeds>]);
+
 #Metallurgy-like compability with...
  #Bucket
  recipes.addShaped(<minecraft:bucket>,
