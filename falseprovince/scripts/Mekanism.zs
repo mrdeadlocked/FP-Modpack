@@ -1,19 +1,3 @@
-/* Mekanism
-   Tweaks and Alterations */
-
-// Paxel Fixes
-
-// Steel
-<ore:axeSteel>.add(<MekanismTools:SteelAxe>);
-<ore:axeSteel>.add(<Railcraft:tool.steel.axe>);
-<ore:pickSteel>.add(<MekanismTools:SteelPickaxe>);
-<ore:pickSteel>.add(<Railcraft:tool.steel.pickaxe> );
-<ore:shovelSteel>.add(<MekanismTools:SteelShovel>);
-<ore:shovelSteel>.add(<Railcraft:tool.steel.shovel>);
-
-recipes.remove(<MekanismTools:SteelPaxel>);
-recipes.addShaped(<MekanismTools:SteelPaxel>, [[<ore:axeSteel>, <ore:pickSteel>, <ore:shovelSteel>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
-
 #Making the recipe for Atomic Dissasembler harder
 recipes.remove(<Mekanism:AtomicDisassembler:*>);
 recipes.addShaped(<Mekanism:AtomicDisassembler:100>,
@@ -25,8 +9,9 @@ recipes.addShaped(<Mekanism:AtomicDisassembler:100>,
 recipes.remove(<Mekanism:MachineBlock:4>);
 recipes.addShaped(<Mekanism:MachineBlock:4>,
  [[<Mekanism:ControlCircuit:3>, <Mekanism:AtomicDisassembler:*>, <Mekanism:ControlCircuit:3>],
-  [null, <Mekanism:Robit:1>.withTag({electricity: 100000.0}), null],
+  [<JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_CarriageDrive:3>, <Mekanism:Robit:1>.withTag({electricity: 100000.0}), <JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_CarriageDrive:3>],
   [<Mekanism:MachineBlock:11>, <ThermalExpansion:Frame:3>, <Mekanism:MachineBlock:11>]]);
+
 #Making the recipe for the Solar Panel harder
 recipes.remove(<MekanismGenerators:SolarPanel>);
 recipes.addShaped(<MekanismGenerators:SolarPanel>,
@@ -51,11 +36,17 @@ recipes.addShaped(<MekanismGenerators:Generator:5>,
 #Making the recipe for the Wind Turbine harder
 recipes.remove(<MekanismGenerators:Generator:6>);
 recipes.addShaped(<MekanismGenerators:Generator:6>,
- [[null, null, null],
+ [[<advgenerators:TurbineBladeSteel>, <advgenerators:TurbineBladeSteel>, <advgenerators:TurbineBladeSteel>],
   [<ore:ingotAluminum>, <BigReactors:BRTurbinePart:4>, <ore:ingotAluminum>],
   [<Mekanism:EnergyTablet:*>, <Mekanism:ControlCircuit:2>, <Mekanism:EnergyTablet:*>]]);
-//Induction temp fix
-recipes.remove(<Mekanism:BasicBlock2:1>);
-recipes.remove(<Mekanism:BasicBlock2:2>);
-mods.mekanism.Infuser.addRecipe("TIN", 2, <Mekanism:BasicBlock:8>, <Mekanism:BasicBlock2:1>);
-furnace.addRecipe(<Mekanism:BasicBlock2:2>, <Mekanism:BasicBlock2:1>);
+    
+#Adding extra crusher recipes to use either TE machine frame or EIO machine chassis
+recipes.addShaped(<Mekanism:MachineBlock:3>,
+ [[<ore:dustRedstone>, <ore:craftingPiston>, <ore:dustRedstone>],
+  [<ore:bucketLava>, <EnderIO:itemMachinePart:0>, <ore:bucketLava>],
+  [<ore:dustRedstone>, <ore:craftingPiston>, <ore:dustRedstone>]]);
+
+recipes.addShaped(<Mekanism:MachineBlock:3>,
+ [[<ore:dustRedstone>, <ore:craftingPiston>, <ore:dustRedstone>],
+  [<ore:bucketLava>, <ThermalExpansion:Frame:0>, <ore:bucketLava>],
+  [<ore:dustRedstone>, <ore:craftingPiston>, <ore:dustRedstone>]]);
