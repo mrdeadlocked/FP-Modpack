@@ -7,6 +7,7 @@ recipes.addShaped(<Mekanism:AtomicDisassembler:100>,
  
 #Making the recipe for the Digital Miner harder
 recipes.remove(<Mekanism:MachineBlock:4>);
+recipes.remove(<Mekanism:MachineBlock:4>);
 recipes.addShaped(<Mekanism:MachineBlock:4>,
  [[<Mekanism:ControlCircuit:3>, <Mekanism:AtomicDisassembler:*>, <Mekanism:ControlCircuit:3>],
   [<JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_CarriageDrive:3>, <Mekanism:Robit:1>.withTag({electricity: 100000.0}), <JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_CarriageDrive:3>],
@@ -23,7 +24,7 @@ recipes.addShaped(<MekanismGenerators:SolarPanel>,
 recipes.remove(<MekanismGenerators:Generator:1>);
 recipes.addShaped(<MekanismGenerators:Generator:1>,
  [[<MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>],
-  [<Mekanism:EnrichedAlloy>, <ore:nuggetTitanium>, <Mekanism:EnrichedAlloy>],
+  [<Mekanism:EnrichedAlloy>, <Mekanism:EnrichedAlloy>, <Mekanism:EnrichedAlloy>],
   [<ore:dustOsmium>, <Mekanism:EnergyTablet:*>, <ore:dustOsmium>]]);
   
 #Making the recipe for the Advanced Solar Generator harder
@@ -50,3 +51,8 @@ recipes.addShaped(<Mekanism:MachineBlock:3>,
  [[<ore:dustRedstone>, <ore:craftingPiston>, <ore:dustRedstone>],
   [<ore:bucketLava>, <ThermalExpansion:Frame:0>, <ore:bucketLava>],
   [<ore:dustRedstone>, <ore:craftingPiston>, <ore:dustRedstone>]]);
+
+mods.mekanism.Combiner.removeRecipe(<ThermalFoundation:Ore:4>);
+mods.mekanism.Combiner.removeRecipe(<minecraft:redstone_ore>);
+mods.mekanism.Combiner.removeRecipe(<minecraft:gold_ore>);
+mods.mekanism.Combiner.removeRecipe(<ore:oreCopper>);

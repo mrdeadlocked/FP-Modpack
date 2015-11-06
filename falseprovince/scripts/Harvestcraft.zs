@@ -127,7 +127,6 @@ honey.add(<BiomesOPlenty:jarFilled>);
 #Recipes for Fresh Milk
 recipes.remove(<harvestcraft:freshmilkItem>);
 recipes.addShapeless(<harvestcraft:freshmilkItem> * 4, [<minecraft:milk_bucket>]);  
-recipes.addShapeless(<harvestcraft:freshmilkItem> * 4, [<IguanaTweaksTConstruct:clayBucketMilk>]);  
 recipes.addShapeless(<harvestcraft:freshmilkItem>, [<ExtraBees:honeyDrop:6>]);  
 recipes.addShapeless(<harvestcraft:freshmilkItem> * 4, [<MineFactoryReloaded:milkbottle>]);  
 

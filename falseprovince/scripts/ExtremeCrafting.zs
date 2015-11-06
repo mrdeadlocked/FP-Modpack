@@ -9,3 +9,18 @@ mods.avaritia.ExtremeCrafting.addShaped(<rftools:regenerationEModuleItem>,
   [<ore:ingotSteel>, <ore:ingotGold>, <ore:ingotGold>, <ExtraUtilities:decorativeBlock2:8>, <rftools:syringeItem>.withTag({mobName: "Iron Golem", level:10}), <ExtraUtilities:decorativeBlock2:8>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotSteel>],
   [<ore:ingotSteel>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ExtraUtilities:decorativeBlock2:8>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotSteel>],
   [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+
+recipes.remove(<Avaritia:Dire_Crafting>);
+recipes.addShaped(<Avaritia:Dire_Crafting>, [[<ore:ingotAlumite>, <ore:ingotInvar>, <ore:ingotAlumite>], [<ore:ingotInvar>, <ore:itemNetherStar>, <ThermalFoundation:material:72>], [<ore:ingotAlumite>, <ThermalFoundation:material:72>, <ore:ingotAlumite>]]);
+
+recipes.remove(<rftools:saturationEModuleItem>);
+mods.avaritia.ExtremeCrafting.addShaped(<rftools:saturationEModuleItem>,
+ [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+  [<ore:ingotSteel>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotSteel>],
+  [<ore:ingotSteel>, <ore:ingotGold>, <ore:ingotGold>, <xreliquary:glowing_bread>, <xreliquary:glowing_bread>, <xreliquary:glowing_bread>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotSteel>],
+  [<ore:ingotSteel>, <ore:ingotGold>, <xreliquary:glowing_bread>, <rftools:syringeItem>.withTag({mobName: "Zombie", level:10}), <rftools:syringeItem>.withTag({mobName: "Zombie", level:10}), <rftools:syringeItem>.withTag({mobName: "Zombie", level:10}), <xreliquary:glowing_bread>, <ore:ingotGold>, <ore:ingotSteel>],
+  [<ore:ingotSteel>, <ore:ingotGold>, <xreliquary:glowing_bread>, <rftools:syringeItem>.withTag({mobName: "Zombie", level:10}), <rftools:syringeItem>.withTag({mobName: "Zombie", level:10}), <rftools:syringeItem>.withTag({mobName: "Zombie", level:10}), <xreliquary:glowing_bread>, <ore:ingotGold>, <ore:ingotSteel>],
+  [<ore:ingotSteel>, <ore:ingotGold>, <xreliquary:glowing_bread>, <rftools:syringeItem>.withTag({mobName: "Zombie", level:10}), <rftools:syringeItem>.withTag({mobName: "Zombie", level:10}), <rftools:syringeItem>.withTag({mobName: "Zombie", level:10}), <xreliquary:glowing_bread>, <ore:ingotGold>, <ore:ingotSteel>],
+  [<ore:ingotSteel>, <ore:ingotGold>, <ore:ingotGold>, <xreliquary:glowing_bread>, <xreliquary:glowing_bread>, <xreliquary:glowing_bread>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotSteel>],
+  [<ore:ingotSteel>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotSteel>],
+  [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);

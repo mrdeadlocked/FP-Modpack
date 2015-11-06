@@ -1,6 +1,6 @@
 # Better HUD configuration file
 # Any removed or corrupted properties will be reverted to default.
-# 2015-10-06 11:51:27.184
+# 2015-10-17 09:51:34.454
 armorBars:
 	enabled:true
 	posMode:0
@@ -45,7 +45,7 @@ breedIndicator:
 	position:middleLeft
 	distance:100.0
 clock:
-	enabled:true
+	enabled:false
 	posMode:0
 	position:topRight
 	position2:0,5
@@ -58,7 +58,7 @@ compass:
 	scale:100.0
 	showNotches:true
 connection:
-	enabled:true
+	enabled:false
 	posMode:0
 	position:topLeft
 	position2:5,5

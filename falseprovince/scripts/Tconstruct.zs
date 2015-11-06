@@ -34,6 +34,6 @@ recipes.addShaped(<TConstruct:strangeFood> * 4, [[<TConstruct:slime.gel:2>]]);
 #New Recipe for Moss Ball
 recipes.remove(<TConstruct:materials:6>);
 recipes.addShaped(<TConstruct:materials:6>,
- [[<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>],
-  [<BiomesOPlenty:moss>, <minecraft:slime_ball> * 1, <BiomesOPlenty:moss>],
-  [<BiomesOPlenty:moss>, <BiomesOPlenty:moss>, <BiomesOPlenty:moss>]]);
+ [[<chisel:ballomoss>, <chisel:ballomoss>, <chisel:ballomoss>],
+  [<chisel:ballomoss>, <minecraft:slime_ball> * 1, <chisel:ballomoss>],
+  [<chisel:ballomoss>, <chisel:ballomoss>, <chisel:ballomoss>]]);

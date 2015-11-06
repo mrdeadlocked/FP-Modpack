@@ -22,6 +22,6 @@ recipes.addShaped(<ExtraUtilities:curtains> * 16, [[<ore:blockWool>, <ore:blockW
 #New Recipe for EnderQuarry
 recipes.remove(<ExtraUtilities:enderQuarry>);
 recipes.addShaped(<ExtraUtilities:enderQuarry>,
- [[<ExtraUtilities:decorativeBlock1:1>, <HardcoreEnderExpansion:obsidian_special:1>, <ExtraUtilities:decorativeBlock1:1>],
+ [[<ExtraUtilities:decorativeBlock1:1>, <EnderIO:item.darkSteel_pickaxe>, <ExtraUtilities:decorativeBlock1:1>],
   [<ExtraUtilities:decorativeBlock1:11>, <ExtraUtilities:decorativeBlock1:12>, <ExtraUtilities:decorativeBlock1:11>],
   [<ExtraUtilities:enderThermicPump>, <EnderIO:item.darkSteel_pickaxe>, <ExtraUtilities:enderThermicPump>]]);

@@ -83,3 +83,6 @@ mods.chisel.Groups.addVariation("granite", <Botania:stone:11>);
 
 // Uranium
 mods.chisel.Groups.addVariation("uraniumblock", <BigReactors:BRMetalBlock>);
+
+//Glass
+mods.chisel.Groups.addVariation("glass", <TConstruct:GlassBlock>);
